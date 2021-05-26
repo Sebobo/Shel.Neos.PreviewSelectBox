@@ -1,0 +1,10 @@
+{
+    "name": "shel-neos-previewselectbox",
+    "description": "Selectboxeditor for Neos CMS with preview capability",
+    "private": true,
+    "workspaces": ["Resources/Private/Scripts/PreviewSelectBox"],
+    "scripts": {
+        "build": "yarn workspace editor run build",
+        "start": "yarn workspace editor run start"
+    }
+}

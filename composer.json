@@ -1,0 +1,26 @@
+{
+    "name": "shel/neos-previewselectbox",
+    "type": "neos-plugin",
+    "license": "GPL-3.0+",
+    "description": "Adds a new selectboxeditor supporting previews for items",
+    "keywords": [
+        "neos",
+        "neoscms"
+    ],
+    "require": {
+        "neos/neos": "^4.3 || ^5.0 || ^7.0 || dev-master"
+    },
+    "authors": [
+        {
+            "name": "Sebastian Helzle",
+            "email": "sebastian@helzle.it",
+            "homepage": "https://www.helzle.it",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "neos": {
+            "package-key": "Shel.Neos.PreviewSelectBox"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          Shel.Neos:PreviewSelectBoxEditor:
+            resource: resource://Shel.Neos.PreviewSelectBox/Public/Scripts/PreviewSelectBox/Plugin.js
