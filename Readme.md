@@ -6,8 +6,9 @@ and shows those when selecting an items in the selectbox.
 In Neos CMS only the `AssetEditor` and `NodeEditor` have this feature and
 it's not possible yet to use this for other data types.
 
-This feature will soon be integrated into Neos CMS and this plugin 
+This feature will soon be integrated into Neos CMS (7.2 or 7.3) and this plugin 
 allows to use it for older Neos versions 4.3+.
+Check the [pull request](https://github.com/neos/neos-ui/pull/2930) and related issue for details.
 
 ![Example](example.jpg)
 
