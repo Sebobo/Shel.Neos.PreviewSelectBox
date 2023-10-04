@@ -6,9 +6,9 @@ and shows those when selecting an items in the selectbox.
 In Neos CMS only the `AssetEditor` and `NodeEditor` have this feature and
 it's not possible yet to use this for other data types.
 
-This feature will soon be integrated into Neos CMS (7.2 or 7.3) and this plugin 
-allows to use it for older Neos versions 4.3+.
+⚠️ This feature is integrated into Neos CMS (7.3+) and this plugin allows to use it for older Neos versions 4.3+.
 Check the [pull request](https://github.com/neos/neos-ui/pull/2930) and related issue for details.
+No new features will be added to this package and it will be archived, when Neos 7.3 is EOL!
 
 ![Example](example.jpg)
 
@@ -20,6 +20,8 @@ dependency of your sitepackage.
 ## How to use
 
 Instead of setting the `icon` property for each value, you set `preview` to an absolute uri.
+
+⚠️ Relative uris might work, but are not officially supported, as they might not resolve in a reliable way depending on the hosting environment.
 
 ### With a datasource
 
